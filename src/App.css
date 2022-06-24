@@ -14,7 +14,7 @@ body {
   );
 }
 .todolist-project {
-  display: flex-start;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 520px;
@@ -84,13 +84,13 @@ h1 {
 }
 
 .todo-container {
-  display: flex-start;
+  display: flex;
   flex-direction: row;
   position: relative;
 }
 
 .todo-row {
-  display: flex-start;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .icons {
-  display: flex-start;
+  display: flex;
   align-items: center;
   font-size: 24px;
   cursor: pointer;
